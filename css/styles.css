@@ -101,7 +101,6 @@ header .profile-image:hover {
 }
 
 .education {
-  display: left;
   margin: 10px auto;
   padding: 40px 40px;
   max-width: 80%;
@@ -115,7 +114,6 @@ header .profile-image:hover {
 /* Experience + Interests Wrapper Designs */
 
 #oculusDiv {
-  display: left;
   margin: 10px auto;
   padding: 40px 40px;
   max-width: 80%;
@@ -135,7 +133,6 @@ header .profile-image:hover {
 }
 
 #deepMindDiv {
-  display: left;
   margin: 10px auto;
   padding: 40px 40px;
   max-width: 80%;
@@ -155,7 +152,6 @@ header .profile-image:hover {
 }
 
 #infinityWardDiv {
-  display: left;
   margin: 10px auto;
   padding: 40px 40px;
   max-width: 80%;
