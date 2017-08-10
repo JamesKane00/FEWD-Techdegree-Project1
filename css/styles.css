@@ -21,6 +21,7 @@ a:hover {
   color: #6633ff;
 }
 
+
 /* Section Styles */
 
 .main-nav {
@@ -52,12 +53,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: white;
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('../images/bch.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,37 +70,171 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 100%;
+  border: 5px dashed green;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #424949;
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 }
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #424949;
+  color: white;
 }
 .card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
+  margin: 20px;
+  padding: 10px 20px;
+  max-width: 700px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
+
+.education {
+  display: left;
+  margin: 10px auto;
+  padding: 40px 40px;
+  max-width: 80%;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+/* Experience + Interests Wrapper Designs */
+
+#oculusDiv {
+  display: left;
+  margin: 10px auto;
+  padding: 40px 40px;
+  max-width: 80%;
+  text-align: left;
+  background-image: url(../images/oculus.jpg);
+  background-position: top 20px left 20px;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+#oculusInfo {
+  padding-top: 30px;
+
+}
+
+#deepMindDiv {
+  display: left;
+  margin: 10px auto;
+  padding: 40px 40px;
+  max-width: 80%;
+  text-align: left;
+  background-image: url(../images/deepmind.jpg);
+  background-position: top 20px left 30px;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+#deepMindInfo {
+  padding-top: 50px;
+
+}
+
+#infinityWardDiv {
+  display: left;
+  margin: 10px auto;
+  padding: 40px 40px;
+  max-width: 80%;
+  text-align: left;
+  background-image: url(../images/infinityward.jpg);
+  background-position: top 20px left 30px;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+#infinityWardInfo {
+  padding-top: 40px;
+
+}
+
+/* Education and work experience wrapper headings */
+
+#retailHeading {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#bartenderHeading {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#educationHeading {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#schoolHeading {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#qualificationsHeading {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#retailRolesHeading {
+  font-style: italic;
+}
+
+#bartenderRolesHeading {
+  font-style: italic;
+}
+
+#workExperienceHeading {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.workExperience {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 40px 40px;
+  max-width: 80%;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+
+}
+
+.education,
+.workExperience:hover {
+  border-color: #ff99ff;
+
+}
 .card:hover {
   border-color: #ff99ff;
+
 }
 
 ul.skills {
@@ -119,6 +254,12 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
+
+.rathmore {
+  float: right;
+
+}
+
 
 footer {
   width: 100%;
@@ -151,14 +292,11 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(../images/linkedin.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(../images/github.svg);
 }
 a.social:hover {
   opacity: 1;
