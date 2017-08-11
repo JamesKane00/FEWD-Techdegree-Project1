@@ -58,7 +58,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('../images/backgroundimage.jpg') no-repeat top center ;
+  background: url('images/backgroundimage.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -118,7 +118,7 @@ header .profile-image:hover {
   padding: 40px 40px;
   max-width: 80%;
   text-align: left;
-  background-image: url(../images/oculus.jpg);
+  background-image: url(images/oculus.jpg);
   background-position: top 20px left 20px;
   background-repeat: no-repeat;
   background-color: white;
@@ -136,7 +136,7 @@ header .profile-image:hover {
   padding: 40px 40px;
   max-width: 80%;
   text-align: left;
-  background-image: url(../images/deepmind.jpg);
+  background-image: url(images/deepmind.jpg);
   background-position: top 20px left 30px;
   background-repeat: no-repeat;
   background-color: white;
@@ -155,7 +155,7 @@ header .profile-image:hover {
   padding: 40px 40px;
   max-width: 80%;
   text-align: left;
-  background-image: url(../images/infinityward.jpg);
+  background-image: url(images/infinityward.jpg);
   background-position: top 20px left 30px;
   background-repeat: no-repeat;
   background-color: white;
